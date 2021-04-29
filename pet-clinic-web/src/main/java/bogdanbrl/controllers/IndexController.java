@@ -13,4 +13,9 @@ public class IndexController {
         model.addAttribute("indexPage", indexPage);
         return "index";
     }
+
+    @RequestMapping("/oups")
+    public String oups(){
+        return "notimplemented";
+    }
 }
