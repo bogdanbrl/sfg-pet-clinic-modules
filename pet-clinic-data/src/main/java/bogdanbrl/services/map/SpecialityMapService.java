@@ -1,13 +1,13 @@
 package bogdanbrl.services.map;
 
 import bogdanbrl.model.Specialty;
-import bogdanbrl.services.SpecialtiesService;
+import bogdanbrl.services.SpecialtyService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class SpecialityMapService extends AbstractMapService<Specialty, Long> implements SpecialtiesService {
+public class SpecialityMapService extends AbstractMapService<Specialty, Long> implements SpecialtyService {
 
 
     @Override
