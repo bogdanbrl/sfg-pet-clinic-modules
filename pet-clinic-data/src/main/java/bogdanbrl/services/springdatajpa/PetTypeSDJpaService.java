@@ -1,7 +1,6 @@
 package bogdanbrl.services.springdatajpa;
 
 import bogdanbrl.model.PetType;
-import bogdanbrl.model.Vet;
 import bogdanbrl.repositories.PetTypeRepository;
 import bogdanbrl.services.PetTypeService;
 import org.springframework.context.annotation.Profile;
