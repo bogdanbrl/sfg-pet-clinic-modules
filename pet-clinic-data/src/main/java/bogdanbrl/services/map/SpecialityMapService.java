@@ -2,11 +2,13 @@ package bogdanbrl.services.map;
 
 import bogdanbrl.model.Specialty;
 import bogdanbrl.services.SpecialtyService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class SpecialityMapService extends AbstractMapService<Specialty, Long> implements SpecialtyService {
 
 
